@@ -1,0 +1,12 @@
+[project]
+name = "cmteb"
+version = "0.0.1"
+dependencies = [
+    "requests",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pyright",
+    "ruff-lsp",
+]
